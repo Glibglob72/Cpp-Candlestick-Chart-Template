@@ -16,7 +16,7 @@ A native Windows candlestick charting application written from scratch in C++17 
 
 ## Building
 
-Requires Visual Studio 2022 and CMake 3.15+.
+Requires Visual Studio 2022 and CMake 3.24+.
 
 ```
 cmake -B build
@@ -61,6 +61,8 @@ ctest --test-dir build -C Release --output-on-failure
 ## License
 
 [MIT](LICENSE)
+
+Bundles the [glad](https://glad.dav1d.de/) OpenGL loader (public domain) and a Khronos platform header (MIT-style license, notice included in the file). Tests fetch [GoogleTest](https://github.com/google/googletest) (BSD-3-Clause) at configure time.
 
 ## AI assistance
 
