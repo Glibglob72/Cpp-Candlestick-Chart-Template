@@ -1,0 +1,23 @@
+# Build directory
+build/
+
+# IDE files
+.vs/
+.vscode/
+*.suo
+*.user
+
+# Compiled files
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Local tool settings
+.claude/
