@@ -61,3 +61,7 @@ ctest --test-dir build -C Release --output-on-failure
 ## License
 
 [MIT](LICENSE)
+
+## AI assistance
+
+Development of this project was assisted by Anthropic's Claude (Opus and Fable models), used for code review, unit tests, tooling, and CI setup.

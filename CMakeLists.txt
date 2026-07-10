@@ -33,7 +33,6 @@ set(FRONTEND_SOURCES
     src/frontend/chart/gl/GLCandleRenderer.cpp
     src/frontend/ui/MainWindow.cpp
     src/frontend/ui/ControlPanel.cpp
-    src/frontend/models/ChartModel.cpp
 )
 
 set(GLAD_SOURCES

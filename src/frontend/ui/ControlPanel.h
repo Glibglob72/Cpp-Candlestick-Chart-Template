@@ -95,7 +95,6 @@ namespace Origin {
         bool m_downHovered = false;
         bool m_upPressed = false;
         bool m_downPressed = false;
-        WNDPROC m_originalEditProc = nullptr;
 
         // Control IDs
         static constexpr int ID_FILE_COMBO = 1001;
